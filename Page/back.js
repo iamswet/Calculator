@@ -11,7 +11,6 @@ Array.from(buttons).forEach((button)=>{
       string = eval(string);
       document.querySelector('input').value = string;
       string ="";
-      //document.querySelector('input').value = "Swet";
       
       if(e.target.innerHTML != "="){
         document.querySelector('input').value = "";
